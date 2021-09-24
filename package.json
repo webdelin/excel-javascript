@@ -1,0 +1,45 @@
+{
+  "name": "excel-javascript",
+  "version": "1.0.0",
+  "description": "Packtische Umsetzung Excel ähnlichen funktional auf JavaScript.",
+  "main": "webpack.config.js",
+  "browserslist": "> 0.25%, not dead",
+  "scripts": {
+    "start": "webpack serve --mode=development",
+    "build": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdelin/excel-javascript.git"
+  },
+  "keywords": [],
+  "author": "Wendelin Gerein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webdelin/excel-javascript/issues"
+  },
+  "homepage": "https://github.com/webdelin/excel-javascript#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/eslint-parser": "^7.15.7",
+    "@babel/preset-env": "^7.15.6",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.3.0",
+    "eslint": "^7.32.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-webpack-plugin": "^3.0.1",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.3.0",
+    "sass": "^1.42.1",
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
+}
