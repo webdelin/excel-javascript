@@ -14,7 +14,12 @@ module.exports = {
     rules: {
         'semi': 'off',
         'comma-dangle': 'off',
-        'require-jsdoc': 'off'/*,
-        'eol-last': 'off'*/
+        'require-jsdoc': 'off',
+        'eol-last': 'off',
+        'indent': 'off',
+        'space-before-blocks': 'off',
+        'padded-blocks':'off',
+        'spaced-comment': 'off',
+        'arrow-parens': 'off'
     }
 }
