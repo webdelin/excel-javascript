@@ -20,6 +20,10 @@ module.exports = {
         'space-before-blocks': 'off',
         'padded-blocks':'off',
         'spaced-comment': 'off',
-        'arrow-parens': 'off'
+        'arrow-parens': 'off',
+        'keyword-spacing': 'off',
+        'max-len': 'off',
+        'operator-linebreak': 'off',
+        'no-debugger':'off'
     }
 }
